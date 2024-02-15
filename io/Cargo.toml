@@ -1,0 +1,14 @@
+[package]
+name = "market-io"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gstd = "1.1.0"
+gmeta = "1.1.0"
+scale-info = { version = "2", default-features = false }
+parity-scale-codec = { version = "3", default-features = false }
+
+[build-dependencies]
+gear-wasm-builder = "1.1.0"
+
